@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.568);
+  overflow: hidden;
+}
+#main {
+  background-color: black;
+  height: 100vh;
+  width: 90%;
+  position: absolute;
+  transform: translate(-120%);
+}
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #fff;
+  padding: 2em;
+  font-size: 1.2rem;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#logo > img {
+  width: 80px;
+}
+#navbar > ul {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+#navbar > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+#login > button {
+  padding: 1.2em 2em;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+}
+#mainsection {
+  position: relative;
+  height: 90%;
+}
+#mainsection > img {
+  width: 350px;
+  border-radius: 20px;
+}
+.img1 {
+  position: absolute;
+  left: 2%;
+  top: 8%;
+}
+.img2 {
+  position: absolute;
+  right: 15%;
+}
+.img3 {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+}
+.img4 {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+}
+#letter-section {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+#letter-section > div {
+  transform: translateY(100%);
+}
+#letter-section > div > h1 {
+  text-transform: uppercase;
+  /* width: 700px; */
+  font-size: 8rem;
+}
+#letter-section > div button {
+  padding: 1.5em 2.5em;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  /* border-radius: 50%; */
+  text-transform: uppercase;
+  background-color: rgba(190, 51, 79, 0.633);
+  border: none;
+  color: white;
+}
+#book {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 30px;
+}
